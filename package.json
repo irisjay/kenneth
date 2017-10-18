@@ -1,0 +1,25 @@
+{
+  "name": "mangletdev",
+  "displayName": "MangleTDev",
+  "version": "1.0.0",
+  "description": "A sample screws with TDev.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ur local hater",
+  "license": "to kill",
+  "dependencies": {
+    "fs-extra": "^4.0.2",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-compress": "^2.0.0",
+    "koa-cors": "0.0.16",
+    "koa-json": "^2.0.2",
+    "koa-morgan": "^1.0.1",
+    "koa-qs": "^2.0.0",
+    "koa-static": "^4.0.1",
+    "ramda": "^0.25.0",
+    "touchdevelop": "http://aka.ms/touchdevelop.tgz"
+  }
+}

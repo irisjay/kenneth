@@ -1,0 +1,16 @@
+.wallBgPictureVertical, .wallFullScreenContainer, .wallBtnRow, .wallFullScreenBtns, .bottomButtons, .copyright-note {
+    display: none;
+}
+body, #wallOverlay {
+    background: rgb(135, 199, 207) !important;
+}
+.pane.no-bar {
+    bottom: 0 !important;
+}
+.wall-page.box-page > div {
+    width: 100% !important;
+    height: 100% !important;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
