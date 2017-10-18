@@ -1,11 +1,11 @@
 //constants
 var R = require ('ramda');
 var path = require ('path');
-var cordova_src = path .join (__dirname, '/../src/cordova');
+var cordova_src = path .join (__dirname, '/../temp/cordova');
 var merges_src = path .join (__dirname, '/../src/merges');
 var transforms_src = path .join (__dirname, '/../src/transforms');
-var processing_base = path .join (__dirname, '/../dist/www');
-var cordova_dist = path .join (__dirname, '/../dist');
+var processing_base = path .join (__dirname, '/../temp/dist/www');
+var cordova_dist = path .join (__dirname, '/../temp/dist');
 
 				
 //utils

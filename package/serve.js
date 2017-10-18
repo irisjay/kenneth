@@ -21,7 +21,7 @@ require ('koa-qs') (new (require ('koa')) ())
 	.use (require ('koa-morgan') ('combined'))
 	.use (require ('koa-bodyparser') ())
 	.use (require ('koa-json') ())
-	.use (require ('koa-static') (__dirname + '/../dist/www'))
+	.use (require ('koa-static') (__dirname + '/../temp/dist/www'))
 	
 	.listen (8080);
 
