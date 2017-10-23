@@ -38,13 +38,13 @@ fi
 
 version=$("$_java" -version 2>&1 | awk -F '"' '/version/ {print $2}')
 echo version "$version"
-if ! [[ "$version" > "1.9" ]]; then
-    echo trying install java 9...
+if ! [[ "$version" > "1.8" ]]; then
+    echo trying install java 8...
     sudo add-apt-repository ppa:webupd8team/java
     sudo apt-get update
-    sudo apt-get install oracle-java9-installer
+    sudo apt-get install oracle-java8-installer
 else
-    echo has java 9
+    echo has java 8
 fi
 
 sudo apt-get install lib32z1
